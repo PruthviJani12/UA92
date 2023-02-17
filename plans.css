@@ -1,0 +1,64 @@
+.container{
+    height: 200px;
+}
+
+.heading {
+    background-image: url(images/caste.jpg);
+    color: #cab4d9;
+    text-shadow: 3px 3px 3px #0f0f0f;
+    object-fit:cover;
+    min-width: 585px;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    margin: 10px 10px 10px 10px;
+    background-color: #0f0f0f;
+}
+.carousel-item {
+    height: 690px;
+    background: none;
+    border-radius: 5px;
+    border-width: 0px;
+    
+}
+.card-body {
+    background-color:#0f0f0f;
+    box-shadow: 2px 2px #ccc;
+  }
+.btn-primary {
+    background-color: #333;
+    border-color: #333;
+}
+.btn-primary:hover {
+    background-color: #fff;
+    color: #333;
+    border-color: #333;
+  }
+.card-title{
+    color: greenyellow;
+    font-size: 40px;
+    text-shadow: .5px .5px 4px rgba(0, 0, 0, 0.671);
+}
+.card-text{
+    color:white;
+}
+.card-img-top{
+    height: 400px;
+    width: 433px;
+    object-fit: contain;
+}
+.describe{
+    color:#cab4d9;
+}
+.btn btn-primary  {
+    color: #0f0f0f;
+}
+.card-wrapper{
+    width: 100%;
+}
+.card{
+    width: 100%;
+}
+h2{
+    text-align: center;
+}

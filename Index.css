@@ -1,0 +1,306 @@
+body {
+    color: #ffedb3;
+    background-image: url(images/marcela-laskoski-YrtFlrLo2DQ-unsplash.jpg);
+    
+    background-repeat: repeat;
+    background-size: cover;
+    
+}
+.logos{
+    width: 50px;
+    height: 50px;
+}
+.premium {
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    padding: 5px;
+    padding-left: 24px;
+    padding-right: 24px;
+    color: #0f0f0f;
+    background-color: #ffebd3;
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-width: 2px;
+    border-color: #1a629c;
+    border-style: solid;
+    cursor: pointer;
+    float: right;
+    margin-right: 0;
+    vertical-align: top;
+    display: inline;
+
+    
+}
+.premium:hover {
+
+    color: #0f0f0f;
+    background-color: #fdfcad;
+    border-width: 3px;
+    border-style: double;
+    transition: 0.15s;
+    
+}
+.premium:active{
+  background-color: #dad0c4;
+  border-width: 1px;
+  border-color: aqua;
+}
+
+#login_side {
+  
+    border-radius: 30px;
+    border-style: solid;
+    border-color: #ffebd3;
+    border-width: 4px;
+    color: #fdfcad;
+    text-align: center;
+   
+  
+ 
+  border-style: inset;
+  opacity: 1.5;
+ 
+    
+  }
+
+#login-text{
+    vertical-align: top;
+    padding-top: 50px;
+    font-family: kanit;
+    font-weight: bold;
+    font-size: 28px;
+    
+  }
+  
+  .form{
+  
+    margin-top: 40px;
+    color: #ffebd3;
+    
+  }
+  
+  #id{
+  
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 1px;
+    height: 28px;
+    width: 250px;
+    border-color: #1a629c;
+    background-color: #0f0f0f;
+    color: #ffebd3;
+    padding-left: 20px;
+  }
+  #id:hover{
+  
+    width: 300px;
+    border-color: aqua;
+    transition: 0.15s;
+  
+  }
+  
+  #id:active{
+  
+    width: 300px;
+    border-color: aqua;
+    
+    
+  }
+  
+   
+   #password{
+  
+    margin-top: 40px;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 1px;
+    height: 28px;
+    width: 250px;
+    border-color: #1a629c;
+    background-color: #0f0f0f;
+    padding-left: 20px;
+    color: #ffebd3;
+  
+  
+  }
+  
+  #password:hover{
+  
+  width: 300px;
+  border-color: aqua;
+  transition: 0.15s;
+  
+  }
+  
+  #password:active{
+  
+  width: 300px;
+  border-color: aqua;
+  
+  
+  }
+
+  .forgotten-password{
+
+    display: inline-block;
+    font-size: 15px;
+    color: #ffedb3;
+    margin-top: 2px;
+    cursor: pointer;
+
+  }
+
+  .forgotten-password:hover{
+
+    text-decoration: underline;
+    opacity: 0.8;
+    color: #ffe4c4;
+  }
+  .forgotten-password:active{
+
+    opacity: 0.9;
+    font-size: 14px;
+
+  }
+  
+  
+  #login-button{
+  
+    margin-top: 30px;
+    background-color: #2196f3;
+    color: #0f0f0f;
+    font-weight: bold;
+    border-width: 1px;
+    border-color: #0f0f0f;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    cursor: pointer;
+  }
+  
+  #login-button:hover{
+  
+    background-color: #44a6f7;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  
+  #login-button:active{
+  
+    background-color: #749fc2;
+    color: #0b1a27;
+    border-color: #44a6f7;
+    border-width: 3px;
+    
+    
+  }
+  
+  .no-account{
+    
+    color: aqua;
+    font-size: 20px;
+    margin-top: 50px;
+    cursor: pointer;
+    display: inline-block;
+  
+  
+  
+  }
+  .no-account:hover{
+  
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 19px;
+    text-shadow: 4px 4px 25px #ffedb3;
+  
+  }
+  
+  .sign-up{
+  
+    color: #2196f3;
+    font-size: 20px;
+    width: 100px;
+    text-align: center;
+    margin-top: 20px;
+    display: inline-block;
+
+  }
+  
+  .sign-up:hover{
+  
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: underline;
+    color: #56acf3;
+    font-size: 19px;
+    text-shadow: 4px 4px 25px #ffedb3;
+    
+    
+  }
+
+.card{
+    background-color: #0f0f0f;
+}
+
+
+
+
+#genreCarousel {
+    max-width: 85%;
+    margin: 50px auto;
+  }
+  
+  .carousel-item img {
+    max-width: 100%;
+    max-height: 100%;
+    height: 350px;
+    object-fit: cover;
+
+  }
+  
+  .carousel-caption {
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    padding: 10px;
+    text-align:justify;
+    color: rgb(255, 255, 255);
+    text-shadow: 3px 3px 15px rgb(234, 255, 0);
+  }
+  
+  .carousel-control-prev,
+  .carousel-control-next {
+    
+    color: #0f0f0f;
+  }
+  
+  .carousel-control-prev:hover,
+  .carousel-control-next:hover {
+    color: black;
+    cursor: pointer;
+  }
+  .copyrights{
+
+    background-color: #0f0f0f;
+    opacity: 0.8;
+
+  }
+  .card-wrapper{
+    display: flex;
+  }
+  .card{
+    margin: 0 .5em ;
+    width: calc(100%/4);
+  }
+
+  .carousel-indicators{
+    
+    color: #56acf3;
+  }
+

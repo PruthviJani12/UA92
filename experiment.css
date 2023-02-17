@@ -1,0 +1,541 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    width: auto;
+    height: auto;
+    
+  }
+  
+  .container-fluid {
+    
+    max-width: 1920px;
+    max-height: 1080px;
+    margin: 0px;
+    background-image: url(marcela-laskoski-YrtFlrLo2DQ-unsplash.jpg);
+    height: 1080px;
+    color: #ffebd3;
+    border-radius: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .topnav {
+    overflow: hidden;
+    background-color: #0f0f0f;
+    position: relative;
+    display: inline;
+    width: 1080px;
+   
+    
+  }
+  
+  .topnav #myLinks {
+    display: none;
+    
+  }
+  
+  .topnav a {
+    float: left;
+    color: #ffedb3;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+    
+   
+  }
+  
+  
+ 
+  .topnav a.icon {
+    float: right;
+  }
+  
+  .topnav a:hover {
+    background-color: #ffedb3;
+    color: #0f0f0f;
+    transition: 0.15s;
+  }
+  
+  .active {
+    background-color: #0f0f0f;
+    color: #ffedb3;
+    height: 30px;
+      width: 35px;
+    padding: 0px;
+    margin: 0px;
+    border-style: inset;
+  }
+  .logos {
+      height: 55px;
+      width: 60px;
+      padding-left: 0px;
+      margin-left: -18px;
+      margin-top: -16px;
+      margin-right: 10px;
+      margin-bottom: -12px;
+      display: inline-block;
+  }
+  .New-arrivals {
+    margin-top: 5px;
+    margin-bottom: -5px;
+    margin-left: 70px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #ffebd3;
+  
+  }
+  
+  .Albums{
+    margin-top: 5px;
+    margin-bottom: -5px;
+    margin-left: 40px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #ffebd3;
+  }
+  
+  
+  .Artists{
+  
+    margin-top: 5px;
+    margin-bottom: -5px;
+    margin-left: 40px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #ffebd3;
+  
+  }
+  
+  .Genres{
+  
+    margin-top: 5px;
+    margin-bottom: -5px;
+    margin-left: 40px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #ffebd3;
+  
+  }
+  
+  .Records{
+    
+    margin-top: 5px;
+    margin-bottom: -5px;
+    margin-left: 40px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #ffebd3;
+    margin-right: -50px;
+  }
+  
+  .premium {
+      margin-left: 0px;
+      margin-right: 20px;
+      margin-top: 10px;
+      padding: 10px;
+      padding-left: 30px;
+      padding-right: 30px;
+      color: #0f0f0f;
+      background-color: #ffebd3;
+      border-radius: 20px;
+      font-size: 15px;
+      font-weight: bold;
+      border-width: 2px;
+      border-color: #1a629c;
+      border-style: solid;
+      cursor: pointer;
+      float: right;
+      margin-right: 0;
+      vertical-align: top;
+      display: inline;
+  
+      
+  }
+  .premium:hover {
+  
+      color: #0f0f0f;
+      background-color: #fdfcad;
+      border-width: 3px;
+      border-style: double;
+      transition: 0.15s;
+      
+  }
+  .premium:active{
+    background-color: #dad0c4;
+    border-width: 1px;
+    border-color: aqua;
+  }
+
+
+
+
+  
+
+  /* .tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+  }
+
+.tooltip .click-here-to-know-more{
+
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+  z-index: 1;
+    
+}
+
+.tooltip:hover .click-here-to-know-more{
+
+    visibility: visible;
+} */
+
+
+
+
+
+  .bg-image{
+    opacity: 0.50;
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-attachment: fixed;
+  }
+  
+  .text{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+  position: absolute;
+  top: 7%;
+  left: 35%;
+  display: inline-block;
+  padding-left: 30px;
+  padding-top: 30px;
+  vertical-align: auto;
+  border-left: 6px solid green;
+  height: 970px;
+  margin-left: 20px;
+  margin-top: 5px;
+
+  
+  }
+  
+  table{
+
+    margin-right: 2px;
+  }
+
+  
+  .login {
+  
+    border-radius: 100px;
+    border-style: solid;
+    border-color: #ffebd3;
+    border-width: 4px;
+    color: #fdfcad;
+    height: 900px;
+    width: 475px;
+    position: absolute;
+  top: 10%;
+  left: 1%;
+  vertical-align: text-top;
+  border-style: inset;
+  opacity: 1.5;
+ 
+    
+  }
+  
+  #login-text{
+    vertical-align: top;
+    padding-top: 50px;
+    font-family: kanit;
+    font-weight: bold;
+    font-size: 28px;
+    
+  }
+  
+  .form{
+  
+    margin-top: 80px;
+    color: #ffebd3;
+    
+  }
+  
+  #id{
+  
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 1px;
+    height: 28px;
+    width: 250px;
+    border-color: #1a629c;
+    background-color: #0f0f0f;
+    color: #ffebd3;
+    padding-left: 20px;
+  }
+  #id:hover{
+  
+    width: 300px;
+    border-color: aqua;
+    transition: 0.15s;
+  
+  }
+  
+  #id:active{
+  
+    width: 300px;
+    border-color: aqua;
+    
+    
+  }
+  
+   
+   #password{
+  
+    margin-top: 40px;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 1px;
+    height: 28px;
+    width: 250px;
+    border-color: #1a629c;
+    background-color: #0f0f0f;
+    padding-left: 20px;
+    color: #ffebd3;
+  
+  
+  }
+  
+  #password:hover{
+  
+  width: 300px;
+  border-color: aqua;
+  transition: 0.15s;
+  
+  }
+  
+  #password:active{
+  
+  width: 300px;
+  border-color: aqua;
+  
+  
+  }
+
+  .forgotten-password{
+
+    display: inline-block;
+    font-size: 15px;
+    color: #ffedb3;
+    margin-top: 2px;
+    cursor: pointer;
+
+  }
+
+  .forgotten-password:hover{
+
+    text-decoration: underline;
+    opacity: 0.8;
+  }
+  .forgotten-password:active{
+
+    opacity: 0.9;
+    font-size: 14px;
+  }
+  
+  
+  #login-button{
+  
+    margin-top: 30px;
+    background-color: #2196f3;
+    color: #0f0f0f;
+    font-weight: bold;
+    border-width: 1px;
+    border-color: #0f0f0f;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    cursor: pointer;
+  }
+  
+  #login-button:hover{
+  
+    background-color: #44a6f7;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  
+  #login-button:active{
+  
+    background-color: #749fc2;
+    color: #0b1a27;
+    border-color: #44a6f7;
+    border-width: 3px;
+    
+    
+  }
+  
+  .no-account{
+    
+    color: aqua;
+    font-size: 20px;
+    margin-top: 50px;
+    cursor: pointer;
+    display: inline-block;
+  
+  
+  
+  }
+  .no-account:hover{
+  
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 19px;
+    text-shadow: 4px 4px 25px #ffedb3;
+  
+  }
+  
+  .sign-up{
+  
+    color: #2196f3;
+    font-size: 20px;
+    width: 100px;
+    text-align: center;
+    margin-top: 20px;
+    display: inline-block;
+
+  }
+  
+  .sign-up:hover{
+  
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: underline;
+    color: #56acf3;
+    font-size: 19px;
+    text-shadow: 4px 4px 25px #ffedb3;
+    
+    
+  }
+div.scroll-images{
+
+     
+      overflow-x: scroll;
+      white-space: nowrap;
+      width: 900px;
+      height: 700px;
+      position:relative;
+      margin-left: 50px;
+      margin-top: 10px;
+      
+}
+  div.scroll-images img{
+
+    height: 243px;
+    width: 163px;
+    display: inline-block;
+    color: greenyellow;
+    text-align: left;
+    padding: 14px;
+    text-decoration: none;
+    border-radius: 50px;
+    border-color: #ffedb3;
+    cursor: pointer;
+  }
+
+div.scroll-images img:hover{
+
+    box-shadow: 0px 0px 50px 1px #ffebd3;
+  }
+
+  div.scroll-images img:active{
+
+    opacity: .8;
+  }
+
+  div.scroll-images a{
+    text-align: center;
+    margin-top: -5px;
+    display: inline-block;
+    margin-right: 60px;
+    margin-left: 40px;
+    cursor: pointer;
+  }
+
+  div.scroll-images a:hover{
+
+    text-decoration: underline;
+  }
+
+  div.scroll-images a:active{
+
+    opacity: .8;;
+  }
+  .all_images_div{
+    display: inline-block;
+  }
+
+
+  marquee{
+
+    vertical-align: baseline;
+    background-color: #0f0f0f;
+    color: rgb(0, 255, 0);
+    position: relative;
+    margin-top: 5px;
+    
+}
+
+.recovery_pass{
+    font-size: 15px;
+    padding-top: 20px;
+    color: #2196f3;
+    text-shadow: 2px 2px 10px  #ffebd3;
+
+}
+
+#recovery_email{
+
+  
+        border-radius: 15px;
+        border-style: solid;
+        border-width: 1px;
+        height: 28px;
+        width: 250px;
+        border-color: #1a629c;
+        background-color: #0f0f0f;
+        color: #ffebd3;
+        padding-left: 20px;
+      }
+      #recovery_email:hover{
+      
+        width: 300px;
+        border-color: aqua;
+        transition: 0.15s;
+      
+      }
+      
+      #recovery_email:active{
+      
+        width: 300px;
+        border-color: aqua;
+        
+        
+      }
+      .col-md-4{
+        width: auto;
+      }
+      .col-md-8{
+        width: fit-content;
+      }
